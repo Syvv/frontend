@@ -1,5 +1,4 @@
 .vscode
-.gihub
 dist
 node_modules
 public
