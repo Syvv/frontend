@@ -3,17 +3,17 @@
 @tailwind utilities;
 
 .btn {
-  @apply bg-amber-300 rounded p-1 border-solid border-amber-500 border
+	@apply bg-amber-300 rounded p-1 border-solid border-amber-500 border;
 }
 
 .btn:disabled {
-  @apply bg-amber-100 cursor-not-allowed
+	@apply bg-amber-100 cursor-not-allowed;
 }
 
 .navbtn {
-  @apply mx-4 font-semibold
+	@apply mx-4 font-semibold;
 }
 
 .navbtn:hover {
-  @apply text-white
+	@apply text-white;
 }

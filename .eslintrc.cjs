@@ -1,41 +1,25 @@
 module.exports = {
-	"env": {
-		"browser": true,
-		"es2021": true
+	env: {
+		browser: true,
+		es2021: true,
 	},
-	"extends": [
+	extends: [
 		"eslint:recommended",
 		"plugin:vue/vue3-essential",
 		"plugin:@typescript-eslint/recommended",
-		"prettier"
+		"prettier",
 	],
-	"overrides": [
-	],
-	"parser": "@typescript-eslint/parser",
-	"parserOptions": {
-		"ecmaVersion": "latest",
-		"sourceType": "module"
+	overrides: [],
+	parser: "@typescript-eslint/parser",
+	parserOptions: {
+		ecmaVersion: "latest",
+		sourceType: "module",
 	},
-	"plugins": [
-		"vue",
-		"@typescript-eslint"
-	],
-	"rules": {
-		"indent": [
-			"error",
-			"tab"
-		],
-		"linebreak-style": [
-			"error",
-			"windows"
-		],
-		"quotes": [
-			"error",
-			"double"
-		],
-		"semi": [
-			"error",
-			"always"
-		]
-	}
+	plugins: ["vue", "@typescript-eslint"],
+	rules: {
+		indent: ["error", "tab"],
+		"linebreak-style": ["error", "unix"],
+		quotes: ["error", "double"],
+		semi: ["error", "always"],
+	},
 };

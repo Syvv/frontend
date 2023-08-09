@@ -1,10 +1,10 @@
 {
-    "home": {
-        "intro": "I am Matthijs, welcome on my personal website"
-    },
-    "routes": {
-        "home": "Home",
-        "about": "About",
-        "contact": "Contact"
-    }
+	"home": {
+		"intro": "I am Matthijs, welcome on my personal website"
+	},
+	"routes": {
+		"home": "Home",
+		"about": "About",
+		"contact": "Contact"
+	}
 }

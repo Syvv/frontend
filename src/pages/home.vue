@@ -1,7 +1,6 @@
 <template>
-    <div>
-        {{ $t("home.intro") }}
-    </div>
+	<div>
+		{{ $t("home.intro") }}
+	</div>
 </template>
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
