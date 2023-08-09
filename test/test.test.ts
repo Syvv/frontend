@@ -6,6 +6,6 @@ describe("When testing", () => {
 	});
 
 	it("should also be normal", () => {
-	expect(1+3).toBe(4);
- });
+		expect(1 + 3).toBe(4);
+	});
 });
