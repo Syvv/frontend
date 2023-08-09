@@ -6,6 +6,8 @@ on:
 jobs:
   format:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v2
         with:
@@ -21,6 +23,7 @@ jobs:
           commit_message: Apply formatting changes
           branch: ${{ github.head_ref }}
   lint: 
+    needs: format
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
