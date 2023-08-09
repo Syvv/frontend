@@ -1,0 +1,10 @@
+{
+    "home": {
+        "intro": "Ik ben Matthijs, en dit is mijn persoonlijke website"
+    },
+    "routes": {
+        "home": "Home",
+        "about": "Over mij",
+        "contact": "Contact"
+    }
+}

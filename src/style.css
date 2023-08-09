@@ -9,3 +9,11 @@
 .btn:disabled {
   @apply bg-amber-100 cursor-not-allowed
 }
+
+.navbtn {
+  @apply mx-4 font-semibold
+}
+
+.navbtn:hover {
+  @apply text-white
+}
