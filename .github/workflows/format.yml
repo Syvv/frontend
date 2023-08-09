@@ -8,9 +8,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      actions: write
     steps:
       - uses: actions/checkout@v2
         with:
+          token: ${{ secrets.PAT }}
           ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v2
         with:
