@@ -9,7 +9,7 @@ jobs:
         steps:
             - uses: actions/checkout@v2
               with:
-                  token: ${{ secrets.PAT }}
+                  token: ${{ secrets.PAT || github.token }}
                   ref: ${{ github.head_ref }}
             - uses: actions/setup-node@v2
               with:
