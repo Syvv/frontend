@@ -14,12 +14,12 @@
 		<div class="w-8">
 			<img
 				class="w-6"
-				@click="i18n.locale.value = 'nl'"
+				@click="LocalStorage.language = 'nl'"
 				src="./assets/nl.svg"
 			/>
 			<img
 				class="w-6"
-				@click="i18n.locale.value = 'en'"
+				@click="LocalStorage.language = 'en'"
 				src="./assets/uk.svg"
 			/>
 		</div>
@@ -30,8 +30,6 @@
 	</main>
 </template>
 <script setup lang="ts">
-// @ts-ignore
-import { useI18n } from "vue-i18n";
-
-const i18n = useI18n();
+import LocalStorage from "./utils/LocalStorage";
+LocalStorage.init();
 </script>
