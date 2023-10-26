@@ -11,7 +11,7 @@ export default createRouter({
 		},
 		{
 			path: "/about",
-			component: about
-		}
+			component: about,
+		},
 	],
 });
