@@ -4,10 +4,10 @@ export type Company = {
 	end?: Date;
 	iconUrl: string;
 	titleFunction: string;
-	functions: Function[];
+	jobs: Job[];
 };
 
-export type Function = {
+export type Job = {
 	start: Date;
 	end?: Date;
 	title: string;

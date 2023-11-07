@@ -5,7 +5,13 @@ const companies: Company[] = [
 		name: "Saysimple",
 		start: new Date("2020-02-04"),
 		titleFunction: "Fullstack developer",
-		functions: [],
+		jobs: [
+			{
+				title: "Intern developer",
+				start: new Date("2020-02-04"),
+				end: new Date("2020-06-30")
+			}
+		],
 		iconUrl: "../assets/saysimple.png",
 	},
 ];

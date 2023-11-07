@@ -3,25 +3,17 @@
 		<div>
 			<p>{{ $t("about.intro") }}</p>
 		</div>
-		<div>
-			<p class="text-2xl">{{ $t("about.experience.title") }}</p>
+		<div class="flex items-center flex-col">
+			<p class="text-2xl my-2">{{ $t("about.experience.title") }}</p>
 			<div v-for="company in companies">
-				<div class="flex flex-row">
-					<img
-						class="w-10"
-						:src="getImageUrl(company.iconUrl)"
-						alt="Image"
-					/>
-					<p class="mt-1.5 ml-2">
-						{{ company.titleFunction }} @ {{ company.name }}
-					</p>
-				</div>
+				<CompanyExpand :company="company"/>
 			</div>
 		</div>
 	</div>
 </template>
 <script setup lang="ts">
 import { useExperience } from "../composables/useExperience";
+import CompanyExpand from "../components/companyExpand.vue";
 
 const { companies } = useExperience();
 
