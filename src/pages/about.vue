@@ -6,7 +6,7 @@
 		<div class="flex items-center flex-col">
 			<p class="text-2xl my-2">{{ $t("about.experience.title") }}</p>
 			<div v-for="company in companies">
-				<CompanyExpand :company="company"/>
+				<CompanyExpand :company="company" />
 			</div>
 		</div>
 	</div>
