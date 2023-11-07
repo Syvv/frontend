@@ -21,9 +21,7 @@
 				<p>{{ job.title }}</p>
 				<p>
 					{{ job.start.toLocaleDateString() }} -
-					{{
-						job.end ? job.end.toLocaleDateString() : $t("present")
-					}}
+					{{ job.end ? job.end.toLocaleDateString() : $t("present") }}
 					({{}})
 				</p>
 			</div>
