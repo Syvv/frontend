@@ -42,10 +42,4 @@ defineProps({
 	},
 });
 const isExpanded = ref(false);
-
-const convertTimePassedToString = (timePassed: TimePassed): string => {
-	const i18n = useI18n();
-	const entries = Object.entries(timePassed);
-	return entries.map(([key, value]) => `${i18n.tc(key, value)}`).join(" ");
-};
 </script>
