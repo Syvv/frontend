@@ -1,4 +1,9 @@
 {
+	"general": {
+		"years": "{n} year | {n} years",
+		"months": "{n} month | {n} months",
+		"days": "{n} day | {n} days"
+	},
 	"home": {
 		"intro": "I am Matthijs, welcome on my personal website"
 	},

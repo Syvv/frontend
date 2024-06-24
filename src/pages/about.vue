@@ -5,8 +5,8 @@
 		</div>
 		<div class="flex items-center flex-col">
 			<p class="text-2xl my-2">{{ $t("about.experience.title") }}</p>
-			<div v-for="company in companies">
-				<CompanyExpand :company="company" />
+			<div v-for="company, index in companies">
+				<CompanyExpand :company="company" :index="index" :count="companies.length" />
 			</div>
 		</div>
 	</div>

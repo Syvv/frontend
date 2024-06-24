@@ -1,4 +1,9 @@
 {
+	"general": {
+		"years": "{n} jaar | {n} jaar",
+		"months": "{n} maand | {n} maanden",
+		"days": "{n} dag | {n} dagen"
+	},
 	"home": {
 		"intro": "Ik ben Matthijs, en dit is mijn persoonlijke website"
 	},

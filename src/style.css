@@ -21,3 +21,7 @@
 .amber-500-rounded-border {
 	@apply rounded p-1 border-solid border-amber-500 border;
 }
+
+.w-128 {
+	width: 32rem;
+}
