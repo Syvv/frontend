@@ -1,4 +1,9 @@
 {
+	"general": {
+		"years": "{n} year | {n} years",
+		"months": "{n} month | {n} months",
+		"days": "{n} day | {n} days"
+	},
 	"home": {
 		"intro": "I am Matthijs, welcome on my personal website"
 	},
@@ -6,5 +11,11 @@
 		"home": "Home",
 		"about": "About",
 		"contact": "Contact"
+	},
+	"about": {
+		"intro": "I've studied ICT engineering at the Via University College in Horsens (Denmark) for two years, after which I've moved back to the Netherlands to study Computer science at Inholland Haarlem. For this I had to do an internship. After doing this internship we decided that coninuing our contract together made sense to both of the parties. Therefor I stopped my education to continue learning while on the job.",
+		"experience": {
+			"title": "Experience"
+		}
 	}
 }
