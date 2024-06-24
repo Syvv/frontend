@@ -5,6 +5,7 @@
 	"routes": {
 		"home": "Home",
 		"about": "About",
-		"contact": "Contact"
+		"contact": "Contact",
+		"projects": "Projects"
 	}
 }

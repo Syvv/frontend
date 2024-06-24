@@ -4,6 +4,9 @@
 			<router-link class="navbtn" to="/">{{
 				$t("routes.home")
 			}}</router-link>
+			<router-link class="navbtn" to="/projects">{{
+				$t("routes.projects")
+			}}</router-link>
 			<router-link class="navbtn" to="/about">{{
 				$t("routes.about")
 			}}</router-link>
