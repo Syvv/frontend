@@ -11,7 +11,7 @@ const companies: Company[] = [
 				start: new Date("2024-01-01")
 			},
 		],
-		iconUrl: "../assets/hhnk.png",
+		iconUrl: "/hhnk.png",
 	},
 	{
 		name: "Saysimple",
@@ -40,7 +40,7 @@ const companies: Company[] = [
 				end: new Date("2020-06-30"),
 			},
 		],
-		iconUrl: "../assets/saysimple.png",
+		iconUrl: "/saysimple.png",
 	},
 ];
 

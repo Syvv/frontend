@@ -64,7 +64,7 @@ const props = defineProps({
 const isExpanded = ref(false);
 
 const getTimelineImageURL = (type: "company" | "job", localindex?: number, localcount?: number): string => {
-	let path = "../assets/timeline/";
+	let path = "/timeline/";
 	switch (type) {
 		case "company":
 			path += "major/"
