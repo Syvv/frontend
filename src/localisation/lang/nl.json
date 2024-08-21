@@ -1,4 +1,9 @@
 {
+	"general": {
+		"years": "{n} jaar | {n} jaar",
+		"months": "{n} maand | {n} maanden",
+		"days": "{n} dag | {n} dagen"
+	},
 	"home": {
 		"intro": "Ik ben Matthijs, en dit is mijn persoonlijke website"
 	},
@@ -6,5 +11,11 @@
 		"home": "Home",
 		"about": "Over mij",
 		"contact": "Contact"
+	},
+	"about": {
+		"intro": "Ik heb twee jaar ICT engineering gestudeerd aan het Via University College in Horsens (Denemarken), waarna ik terug ben gegaan naar Nederland om informatica te studeren bij Inholland Haarlem. Bij deze opleiding hoort een stage, waarna het stagebedrijf en ik samen hebben besloten door te gaan met ons arbeidsverband en dus ben ik gestopt met de studie om 'on the job' door te leren.",
+		"experience": {
+			"title": "Ervaring"
+		}
 	}
 }
